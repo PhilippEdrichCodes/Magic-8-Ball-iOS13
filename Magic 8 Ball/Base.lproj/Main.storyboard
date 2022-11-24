@@ -33,6 +33,9 @@
                                     <directionalEdgeInsets key="contentInsets" top="0.0" leading="20" bottom="0.0" trailing="20"/>
                                     <color key="baseForegroundColor" systemColor="systemTealColor"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="askButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1T7-7d-7Oz"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ask Me Anything ..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mtQ-OC-O2I">
                                 <rect key="frame" x="49" y="158" width="295" height="42"/>
@@ -46,7 +49,6 @@
                         <color key="backgroundColor" systemColor="systemTealColor"/>
                     </view>
                     <connections>
-                        <outlet property="askButtonPressed" destination="Uar-H1-19b" id="y8D-Ap-aDG"/>
                         <outlet property="imageView" destination="2ZB-Hl-xRh" id="Ist-Lg-Rid"/>
                     </connections>
                 </viewController>
